@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input[type = 'number'] {
+            display: block;
+            width: 350px;
+            border: 1px solid black;
+            height: 30px;
+            background-color: transparent;
+            border-radius: 3px;
+            padding-inline: 5px;
+            font-size: 30px;
+            padding-block: 10px;
+            margin-block: 10px;
+            outline: none;
+
+        }
+
+        input:focus {
+            border: 2px solid black;
+        }
+
+        input[type = 'submit'] {
+            font-size: 20px;
+
+            padding-block: 10px;
+            padding-inline: 5px;
+            display: block;
+            margin-block: 10px;
+            height: 50px;
+            width: 360px;
+            background-color: black;
+            color: white;
+            outline: none;
+            border: 1px solid black;
+            border-radius: 3px;
+        }
+
+        #result {
+            display: block;
+            width: 360px;
+            height: 100px;
+            border: 1px solid black;
+            border-radius: 3px;
+            font-size: 100px;
+            color: black;
+            padding-inline: 10px;
+font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="heading1" id="heading1">Something is Here</h1>
+
+    <input type="number" name="num1" id="num1" value="0" min="0" >
+    <input type="number" name="num2" id="num2" value="0" min="0" >
+    <input type="submit" value="Add" id="add-btn">
+
+    <p id="result">
+        0
+    </p>
+    
+
+    <script src="/sample.js"></script>
+</body>
+</html>
